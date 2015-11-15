@@ -1,6 +1,6 @@
 {
   "AWSTemplateFormatVersion": "2010-09-09",
-  "Description": "Using Ubuntu 14.04 LTS, configures a Ubiquiti Unifi Controller with an elastic IP and security group.",
+  "Description": "Using Ubuntu 14.04 LTS hvm AMI image, configures a Ubiquiti Unifi Controller with an elastic IP and security group.",
   "Parameters": {
     "InstanceType": {
       "Description": "EC2 HVM T2 instance type",
