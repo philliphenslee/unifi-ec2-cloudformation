@@ -84,7 +84,7 @@
     "UnifiSecurityGroup": {
       "Type": "AWS::EC2::SecurityGroup",
       "Properties": {
-        "Vpc": {
+        "VpcId": {
           "Ref": "Vpc"
         },
         "GroupDescription": "Unifi Controller Security Group",
