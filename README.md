@@ -29,7 +29,7 @@ Enter the stack name and parameters, click next, next, and create.
     
     
     
-Take a short break while CloudFormation creates the new stack...
+Take a short break while CloudFormation creates the new stack and the Unifi software is installed...
 
 ![UnifiInstance](http://ph2.us/github/unifi-ec2-cloudformation/aws-unifi-instance.png)
   
