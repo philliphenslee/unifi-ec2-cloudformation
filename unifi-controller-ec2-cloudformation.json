@@ -137,7 +137,7 @@
     "UnifiNetworkInterface": {
       "Type": "AWS::EC2::NetworkInterface",
       "Properties": {
-        "Subnet": {
+        "SubnetId": {
           "Ref": "Subnet"
         },
         "Description": "Interface for Unifi controller",
