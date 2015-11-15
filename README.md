@@ -23,9 +23,10 @@ Enter the stack name and parameters, click next and then create.
 
 
 ![UnifiStack](http://ph2.us/github/unifi-ec2-cloudformation/aws-unifi-parameters.png)
-  
-  
-  
+    
+    
+    
+    
   
 Take a short break while CloudFormation creates the new stack...
 
