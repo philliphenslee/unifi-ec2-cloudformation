@@ -35,7 +35,7 @@ Take a short break while CloudFormation creates the new stack...
   
   
   
-Configure the new Unifi Controller...
+Configure the new Unifi Controller, and modify the security group as needed. 
 
 ![UnifiSetup](http://ph2.us/github/unifi-ec2-cloudformation/aws-unifi-setup.png)
 
