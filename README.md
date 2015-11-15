@@ -1,6 +1,6 @@
 ## unifi-ec2-cloudformation
 AWS CloudFormation template to deploy a Ubiquiti Unifi controller with Elastic IP and Security Group.
-Use the AWS T2 instance type with a 30GB general purpose SSD volume.
+Using Ubuntu 14.04 LTS AMI, AWS T2 instance type and a 30GB general purpose SSD volume.
 
 
 ![CloudFormationTemplate](http://ph2.us/github/unifi-ec2-cloudformation/aws-unifi-cf-designer.png)
