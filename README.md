@@ -40,6 +40,10 @@ Configure the new Unifi Controller...
 ![UnifiSetup](http://ph2.us/github/unifi-ec2-cloudformation/aws-unifi-setup.png)
 
 
+## License
+MIT Copyright © [Phillip J. Henslee II](https://github.com/philliphenslee/smartslack/blob/master/LICENSE)
+
+
 
 
 
