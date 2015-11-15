@@ -18,11 +18,11 @@
       "Description": "The key pair to allow SSH access",
       "Type": "AWS::EC2::KeyPair::KeyName"
     },
-    "SubnetId": {
+    "Subnet": {
       "Description": "Select the subnet for the new EC2 instance",
       "Type": "AWS::EC2::Subnet::Id"
     },
-    "VpcId": {
+    "Vpc": {
       "Description": "Select the vpc...",
       "Type": "AWS::EC2::VPC::Id"
     }
@@ -63,7 +63,7 @@
       "Type": "AWS::EC2::EIP",
       "Properties": {
         "Domain": {
-          "Ref": "VpcId"
+          "Ref": "Vpc"
         }
       }
     },
@@ -84,8 +84,8 @@
     "UnifiSecurityGroup": {
       "Type": "AWS::EC2::SecurityGroup",
       "Properties": {
-        "VpcId": {
-          "Ref": "VpcId"
+        "Vpc": {
+          "Ref": "Vpc"
         },
         "GroupDescription": "Unifi Controller Security Group",
         "SecurityGroupIngress": [
@@ -137,8 +137,8 @@
     "UnifiNetworkInterface": {
       "Type": "AWS::EC2::NetworkInterface",
       "Properties": {
-        "SubnetId": {
-          "Ref": "SubnetId"
+        "Subnet": {
+          "Ref": "Subnet"
         },
         "Description": "Interface for Unifi controller",
         "GroupSet": [
@@ -152,7 +152,7 @@
     "UnifiInstance": {
       "Type": "AWS::EC2::Instance",
       "Properties": {
-        "InstanceType": "t2.micro",
+        "InstanceType": {"Ref": "InstanceType"},
         "ImageId": {
           "Fn::FindInMap": [
             "RegionMap",
