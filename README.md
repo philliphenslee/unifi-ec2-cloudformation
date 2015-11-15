@@ -19,7 +19,7 @@ From AWS CloudFormation, click "Create Stack" and then load the template file.
   
   
 
-Enter the stack name and parameters, click next and then create. 
+Enter the stack name and parameters, click next, next, and create. 
 
 
 ![UnifiStack](http://ph2.us/github/unifi-ec2-cloudformation/aws-unifi-parameters.png)
